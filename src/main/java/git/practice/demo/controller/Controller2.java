@@ -12,4 +12,12 @@ public class Controller2 {
 	public String test2() {
 		return "from cotroller 2";
 	}
+	@GetMapping("/two")
+	public String test3() {
+		return "from cotroller 2 and method 2";
+	}
+	@GetMapping("/three")
+	public String test1() {
+		return "from cotroller 2 and method 2";
+	}
 }
