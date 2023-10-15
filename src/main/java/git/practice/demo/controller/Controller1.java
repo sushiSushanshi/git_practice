@@ -8,8 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test1")
 public class Controller1 {
 	
-	@GetMapping
+	@GetMapping("/one")
 	public String test1() {
 		return "from cotroller 1";
+	}
+	@GetMapping("/two")
+	public String test2() {
+		return "from cotroller 1 and test 2";
 	}
 }
