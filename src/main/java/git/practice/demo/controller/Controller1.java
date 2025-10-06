@@ -19,6 +19,7 @@ public class Controller1 {
 
 	@GetMapping("/three")
 	public String test3() {
+		System.out.println("added one more log change in test 3 ");
 		System.out.println("added one more change in test 3 ");
 		return "from cotroller 1 and test 2 and 3";
 	}
