@@ -16,4 +16,9 @@ public class Controller1 {
 	public String test2() {
 		return "from cotroller 1 and test 2";
 	}
+
+	@GetMapping("/three")
+	public String test3() {
+		return "from cotroller 1 and test 2 and 3";
+	}
 }
