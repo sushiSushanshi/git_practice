@@ -24,6 +24,7 @@ public class Controller1 {
 		System.out.println("added one more change in test 3 ");
 		System.out.println("added one more change in test 3 ");
 		System.out.println("two");
+		System.out.println("three");
 		return "from cotroller 1 and test 2 and 3";
 	}
 }
