@@ -27,6 +27,7 @@ public class Controller1 {
 		System.out.println("three");
 		System.out.println("four");
 		System.out.println("five");
+		System.out.println("six");
 		return "from cotroller 1 and test 2 and 3";
 	}
 }
