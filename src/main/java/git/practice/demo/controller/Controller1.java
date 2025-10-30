@@ -4,6 +4,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.SortedMap;
+
 @RestController
 @RequestMapping("/test1")
 public class Controller1 {
@@ -31,6 +33,7 @@ public class Controller1 {
 		System.out.println("seven");
 		System.out.println("eight");
 		System.out.println("nine");
+		System.out.println("ten");
 		return "from cotroller 1 and test 2 and 3";
 	}
 }
