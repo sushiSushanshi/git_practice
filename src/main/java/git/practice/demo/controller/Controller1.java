@@ -10,6 +10,7 @@ public class Controller1 {
 	
 	@GetMapping("/one")
 	public String test1() {
+		System.out.println("wip 4");
 		System.out.println("added one more change in test 1 in controller branch ");
 		return "from cotroller 1";
 	}
