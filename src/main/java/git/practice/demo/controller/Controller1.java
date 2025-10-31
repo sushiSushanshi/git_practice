@@ -15,6 +15,7 @@ public class Controller1 {
 	}
 	@GetMapping("/two")
 	public String test2() {
+		System.out.println("wip 3");
 		return "from cotroller 1 and test 2";
 	}
 
