@@ -24,6 +24,8 @@ public class Controller1 {
 
 	@GetMapping("/three")
 	public String test3() {
+		System.out.println("wip");
+		System.out.println("wip");
 		System.out.println("added one more log change in test 3 ");
 		System.out.println("added one more change in test 3 ");
 		System.out.println("added one more change in test 3 ");
