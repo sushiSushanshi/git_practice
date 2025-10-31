@@ -31,6 +31,7 @@ public class Controller1 {
 		System.out.println("seven");
 		System.out.println("eight");
 		System.out.println("ten");
+		System.out.println("wip1");
 		return "from cotroller 1 and test 2 and 3";
 	}
 }
